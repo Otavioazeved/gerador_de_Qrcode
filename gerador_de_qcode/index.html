@@ -6,8 +6,26 @@
     <title>Gerador de Qrcode</title>
     <link rel="icon" href="data:,">
     <link rel="stylesheet" href="style/style.css">
+
+      <!-- fonte roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="container">
+        <header id="qr-header">
+            <h1>Gerador de Qr code</h1>
+            <p>Insira uma URL ou texto para criat um Qr code</p>
+        </header>
+        <div id="qr-header">
+            <input type="text" placeholder="Digite a URL ou texto qualquer">
+            <button>Gerar Qr code</button>
+        </div>
+        <div id="qr-code">
+            <img src="img/qrcode.png" alt="qrcode">
+        </div>
+    </div>
 
 
 
@@ -15,6 +33,6 @@
 
 
 
-    <script src="js/script.js"></script>
+    <script src="js/script.js" defer></script>
 </body>
 </html>
